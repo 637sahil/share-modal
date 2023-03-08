@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="circle1"></div>
+<div class="circle2"></div>
+
+  
+<div class="wrapper">
+    <div class="card-wrapper">
+        <div>
+            <img src="./WhatsApp Image 2023-02-09 at 12.15.17 AM (1).jpeg ">
+        </div>
+
+        <div class="user-name">
+            <h2>sahil gupta</h2>
+        </div>
+
+        <div class="designation">
+            <h3>web developer</h3>
+        </div>
+
+        <div class="button-group">
+            <button onclick="openModal()" class="btn-share btn-card">
+                <p>share my profile</p>
+
+            </button>
+
+            <button class="btn-flw btn-card">
+                follow me
+
+            </button>
+        </div>
+
+
+    </div>
+</div>
+
+
+<!-- //share  part -->
+
+ <div class="modal">
+    <div class="modal-header">
+        <h1>share my profile</h1>
+        <div>
+           <span onclick="closeModal()" class="close">&times;</span>
+        </div>
+    </div>
+
+    <div>
+        <h3>share this via</h3>
+          
+      <div class="icon-container">
+        <a href="#" class="icon" id="facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" class="icon" id="twitter">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="icon" id="instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="icon" id="whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="#" class="icon" id="telegram">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </div> 
+    </div>
+ </div>
+
+ <!-- overlay -->
+ <div onclick="closeModal()" class="overlay"></div>
+
+ <script src="script.js"></script>
+</body>
+</html>
